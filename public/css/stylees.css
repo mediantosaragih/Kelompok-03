@@ -1,0 +1,185 @@
+*{
+
+    font-family: lucida-bright;
+}
+body{
+    background-color: white;
+	margin: 0px;
+}
+
+header .head1{
+    width: 100%;
+    background-color:  #192437;
+    text-align: center;
+    color: white;
+    font-family: lucida bright;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;  
+}
+header .head2{
+    width: 100%;
+    background-color:  white;
+    text-align: center;
+    color: red;
+    font-family: lucida bright;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;    
+}
+header .head3{
+    width: 100%;
+    
+    color: white;
+    font-family: lucida bright;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2px;    
+}
+
+main .sidebar{
+    
+    color: white;
+    font-family: lucida bright;
+    padding-right: 2px;
+
+    font-weight: bold;
+    
+
+}
+main .content{
+    background-color: white
+}
+footer .foot{
+    width: 100%;
+    background-color:  #192437;
+    text-align: center;
+    color: white;
+    font-family: lucida bright;
+    height: 80px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2px;  
+}
+
+main .kategori a{
+    background-color: #cccccc;
+    color: blue;
+    padding-right: 100px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+main .sidebar ul li{
+    list-style-type: none;
+    background-color: white;
+
+}
+main .sidebar ul {
+    background-color: white;
+    padding-left: 0px;
+}
+.kategori-head{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-color: white;
+    margin-bottom:1px;
+}
+.kategori-link{
+    margin-bottom: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-color: white;
+    margin-bottom:1px;
+}
+.kategori-link a{
+    text-decoration: none;
+    outline-color: white;
+    color: black;
+    font-size: 15px;
+    padding-top: 0px;
+
+}
+.kategori-link a:hover{
+    text-decoration: none;
+    color: #cccccc;
+
+    
+}
+.carousel-item {
+  height: 75vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.tulisan{
+    background-color: #5C5156;
+    width: 100%;
+    left: 0px;
+    
+    height: 75vh;
+    min-height: 350px;
+
+}
+.gambar{
+    width: 100%;
+    right: 0px;
+    background-color: #5C5156;
+ height: 75vh;
+    min-height: 350px;
+}
+
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+#image_div
+{
+ width:500px;
+ margin-left:0px;
+ position:relative;
+}
+#image_div img
+{
+ width:427px;
+ height: 699px;
+}
+#image_div #image_label
+{
+ margin:0px;
+ position:absolute;
+ bottom:250px;
+ left: 100px;
+}
+#image_div #image_label span
+{
+ background-color: white;
+ opacity:0.8;
+ font-size:25px;
+ padding:7px;
+ box-sizing:border-box;
+ color:black;
+ font-weight:bold;
+}
+

@@ -1,0 +1,76 @@
+body{
+	font-family: Malgun Gothic;
+	background-image: url('../image/home/tobasa.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+
+}
+.form_login {
+    border: none;
+    outline: none;
+    padding-top: 5px;
+}
+.form-border {
+    background: #707070;
+    height: 1px;
+    width: 100%;
+
+}
+.login{
+	margin: 150px auto;
+}
+.kotak_login{
+	width: 450px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: -1px auto;
+	padding: 30px 70px;
+}
+.kotak_judul{
+	width: 450px;
+	background: #0B0046;
+	/*meletakkan form ke tengah*/
+	margin: 1px auto;
+	padding: 10px 70px;
+	color: white;
+	font-size: 30px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 5px;
+	font-size: 11pt;
+	margin-bottom: 0px;
+	margin-left: -12px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding:10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
